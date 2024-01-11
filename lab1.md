@@ -16,4 +16,8 @@
 
 
 
+![Image](cat no args.png)
 
+![Image](cat directory arg.png)
+
+![Image](cat file arg.png)

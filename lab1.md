@@ -1,10 +1,11 @@
-# `cd` with no arguments<br>
+# Lab Report 1
+## `cd` with no arguments<br>
 ![Image](cd no args.png)<br>
 working directory is `/home`<br>
 Having no arguments didn't point to any directory for the `cd` command to open, so nothing happened<br>
 It is not an error<br>
 
-# `cd lecture1` where `lecture1` is a directory
+## `cd lecture1` where `lecture1` is a directory
 ![Image](cd directory arg.png)
 working directory is `/home`
 `lecture1` is a directory that the `cd` command was directed to open, and this is what the command did

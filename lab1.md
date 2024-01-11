@@ -11,7 +11,7 @@ working directory is `/home`
 `lecture1` is a directory that the `cd` command was directed to open, and this is what the command did
 Not an error
 
-`cd README` where `README` is a file
+## `cd README` where `README` is a file
 ![Image](cd file arg.png)
 working directory is `/home/lecture1`
 `README` is a file and the `cd` command can't take a file as an argument

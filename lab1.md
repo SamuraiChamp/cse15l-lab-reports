@@ -1,1 +1,1 @@
-![Image](cd no args.png)
+![Image](cd_no_args.jpg)

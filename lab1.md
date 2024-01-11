@@ -3,3 +3,12 @@
 ![Image](cd directory arg.png)
 
 ![Image](cd file arg.png)
+
+
+
+
+![Image](cd file arg.png)
+
+![Image](cd file arg.png)
+
+![Image](cd file arg.png)

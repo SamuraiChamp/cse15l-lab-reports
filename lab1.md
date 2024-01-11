@@ -19,18 +19,24 @@ It is an error because `cd` isn't supposed to take files as arguments, just link
 
 ## `ls` with no arguments
 ![Image](ls no args.png)<br>
+working directory is `/home`<br>
 
 ## `ls lecture1` where `lecture1` is a directory
 ![Image](ls directory arg.png)<br>
+working directory is `/home`<br>
 
 ## `ls en-us.txt` where `en-us.txt` is a file
 ![Image](ls file arg.png)<br>
+working directory is `/home/lecture1/messages`<br>
 
 ## `cat` with no arguments
 ![Image](cat no args.png)<br>
+working directory is `/home`<br>
 
 ## `cat lecture1` where `lecture1` is a directory
 ![Image](cat directory arg.png)<br>
+working directory is `/home`<br>
 
 ## `cat README` where `README` is a file
 ![Image](cat file arg.png)<br>
+working directory is `/home/lecture1`<br>

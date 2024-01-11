@@ -1,8 +1,8 @@
-`cd` with no arguments
-![Image](cd no args.png)
-working directory is `/home`
-Having no arguments didn't point to any directory for the `cd` command to open, so nothing happened
-It is not an error
+`cd` with no arguments<br>
+![Image](cd no args.png)<br>
+working directory is `/home`<br>
+Having no arguments didn't point to any directory for the `cd` command to open, so nothing happened<br>
+It is not an error<br>
 
 `cd lecture1` where `lecture1` is a directory
 ![Image](cd directory arg.png)

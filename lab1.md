@@ -1,4 +1,4 @@
-`cd` with no arguments<br>
+# `cd` with no arguments<br>
 ![Image](cd no args.png)<br>
 working directory is `/home`<br>
 Having no arguments didn't point to any directory for the `cd` command to open, so nothing happened<br>

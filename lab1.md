@@ -26,18 +26,18 @@ No errors<br>
 ## `ls lecture1` where `lecture1` is a directory
 ![Image](ls directory arg.png)<br>
 working directory is `/home`<br>
-`ls lecture1` locates `lecture1` in the working directory and lists the contents of it<be>
+`ls lecture1` locates `lecture1` in the working directory and lists the contents of it<br>
 No errors<br>
 
 ## `ls en-us.txt` where `en-us.txt` is a file
 ![Image](ls file arg.png)<br>
-working directory is `/home/lecture1/messages`<be>
+working directory is `/home/lecture1/messages`<br>
 `ls en-us.txt` is called on the `en-us.txt` file which should just repeat the name of it since it isn't a directory<br>
 No errors<br>
 
 ## `cat` with no arguments
 ![Image](cat no args.png)<br>
-working directory is `/home`<be>
+working directory is `/home`<br>
 `cat` if given no inputs will read from the command line and repeat the text inputted by the user<br>
 No errors<br>
 

@@ -15,19 +15,25 @@ Not an error<br>
 ![Image](cd file arg.png)<br>
 working directory is `/home/lecture1`<br>
 `README` is a file and the `cd` command can't take a file as an argument<br>
-It is an error because `cd` isn't supposed to take files as arguments, just links to other directories within it<be>
+It is an error because `cd` isn't supposed to take files as arguments, just links to other directories within it<br>
 
 ## `ls` with no arguments
 ![Image](ls no args.png)<br>
 working directory is `/home`<br>
+`ls` lists everything stored within the working directory<br>
+No errors<br>
 
 ## `ls lecture1` where `lecture1` is a directory
 ![Image](ls directory arg.png)<br>
 working directory is `/home`<br>
+`ls lecture1` locates `lecture1` in the working directory and lists the contents of it<be>
+No errors<br>
 
 ## `ls en-us.txt` where `en-us.txt` is a file
 ![Image](ls file arg.png)<br>
-working directory is `/home/lecture1/messages`<br>
+working directory is `/home/lecture1/messages`<be>
+`ls en-us.txt` is called on the `en-us.txt` file which should just repat the name of it since it isn't a directory<br>
+No errors<br>
 
 ## `cat` with no arguments
 ![Image](cat no args.png)<br>

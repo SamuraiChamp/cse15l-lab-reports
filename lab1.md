@@ -32,17 +32,23 @@ No errors<br>
 ## `ls en-us.txt` where `en-us.txt` is a file
 ![Image](ls file arg.png)<br>
 working directory is `/home/lecture1/messages`<be>
-`ls en-us.txt` is called on the `en-us.txt` file which should just repat the name of it since it isn't a directory<br>
+`ls en-us.txt` is called on the `en-us.txt` file which should just repeat the name of it since it isn't a directory<br>
 No errors<br>
 
 ## `cat` with no arguments
 ![Image](cat no args.png)<br>
-working directory is `/home`<br>
+working directory is `/home`<be>
+`cat` if given no inputs will read from the command line and repeat the text inputted by the user<br>
+No errors<br>
 
 ## `cat lecture1` where `lecture1` is a directory
 ![Image](cat directory arg.png)<br>
 working directory is `/home`<br>
+`cat lecture1` uses the `lecture1` directory as an argument and the `cat` command isn't meant to take directories as inputs<br>
+There is an error because `cat` is meant to read a file's contents and not access a directory<br>
 
 ## `cat README` where `README` is a file
 ![Image](cat file arg.png)<br>
 working directory is `/home/lecture1`<br>
+`cat README` accesses the `README` file and prints its context as text in the command line<br>
+No errors<br>

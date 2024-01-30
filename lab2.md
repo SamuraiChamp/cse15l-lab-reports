@@ -1,4 +1,4 @@
-# Lab Report 1
+# Lab Report 2
 ## Part 1<br>
 ![Image](ChatServer1.png)
 ![Image](ChatServer2.png)

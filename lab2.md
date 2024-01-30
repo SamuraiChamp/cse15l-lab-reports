@@ -16,6 +16,7 @@
 The absolute path for the private SSH key is `/c/Users/richa/.ssh/id_ed22519.file`<br>
 ![Image](publickey.png)<br>
 The absolute path for the public SSH key is `/home/linux/ieng6/oce/3g/rgabel/.ssh/authorized_keys.file`<br>
+![Image](nopassword.png)<br><br>
 
 ## Part 3<br>
 I learned about remotely connecting to another computer system. I've always known that remote connect was a thing that existed on Windows OS but I never knew it could be easily done with a command line and that I could connect to a Linux-based system like the ieng6 one we connect to. I also didn't know about setting up keys to make logging into a remote connection easier.

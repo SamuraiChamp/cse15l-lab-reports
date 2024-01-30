@@ -10,11 +10,12 @@
 * The `handleRequest` method is called when I use the `add-message` query
 * Arguments are `/add-message`, and the query is split into 2 args being `s=hello` and `user=Richard`. There are also multiple fields within the class like `output`, `parameters`, `test`, `string`, and `user`.
 * `parameters` is initialized as `{"s=hi", "user=Joe"}`. `test` is initialized with the value `"user=Joe"`. `string` is set to `"hi"`. `user` is set to `"Joe"`. `output` is set to `"Joe: hi"` with a next line added on to the end. These fields got changed based on if they passed different conditions throughout the code where this case was a successful run of the code.<br>
-<br>
+
 ## Part 2<br>
+![Image](privatekey.png)<br>
+The absolute path for the private SSH key is `/c/Users/richa/.ssh/id_ed22519.file`<br>
+![Image](publickey.png)<br>
+The absolute path for the public SSH key is `/home/linux/ieng6/oce/3g/rgabel/.ssh/authorized_keys.file`<br>
 
-Using the command line, show with ls and take screenshots of:
-
-The absolute path to the private key for your SSH key for logging into ieng6 (on your computer, an EdStem workspace, or on the home directory of the lab computer)
-The absolute path to the public key for your SSH key for logging into ieng6 (this is the one you copied to your account on ieng6, so it should be a path on ieng6's file system)
-A terminal interaction where you log into your ieng6 account without being asked for a password.
+## Part 3<br>
+I learned about remotely connecting to another computer system. I've always known that remote connect was a thing that existed on Windows OS but I never knew it could be easily done with a command line and that I could connect to a Linux-based system like the ieng6 one we connect to. I also didn't know about setting up keys to make logging into a remote connection easier.

@@ -1,9 +1,8 @@
 # Lab Report 1
-
 ![Image](ChatServer1.png)
 ![Image](ChatServer2.png)
 ![Image](add-message1.png)
-
+hi
 ![Image](add-message2.png)
 
 Which methods in your code are called?

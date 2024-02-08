@@ -54,3 +54,5 @@ Time: 0.035
 
 OK (1 test)
 ```
+## Symptom
+![Image](Junit Tests.png)

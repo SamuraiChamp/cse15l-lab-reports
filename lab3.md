@@ -1,16 +1,28 @@
+# Part 1
+## Fail Test
+### Test
+```
+@Test
+   public void testArrayFail(){
+    int[] input2 = { 1, 2, 3 };
+    ArrayExamples.reverseInPlace(input2);
+    assertArrayEquals(new int[]{ 3, 2, 1 }, input2);
+  }
+```
+### Output
 ```
 JUnit version 4.13.2
 .E
-Time: 0.075
+Time: 0.026
 There was 1 failure:
-1) testReverseInPlace(ArrayTests)
+1) testArrayFail(ArrayTests)
 arrays first differed at element [2]; expected:<1> but was:<3>
         at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:78)
         at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:28)
         at org.junit.Assert.internalArrayEquals(Assert.java:534)
         at org.junit.Assert.assertArrayEquals(Assert.java:418)
         at org.junit.Assert.assertArrayEquals(Assert.java:429)
-        at ArrayTests.testReverseInPlace(ArrayTests.java:13)
+        at ArrayTests.testArrayFail(ArrayTests.java:19)
         ... 30 trimmed
 Caused by: java.lang.AssertionError: expected:<1> but was:<3>
         at org.junit.Assert.fail(Assert.java:89)
@@ -23,4 +35,22 @@ Caused by: java.lang.AssertionError: expected:<1> but was:<3>
 
 FAILURES!!!
 Tests run: 1,  Failures: 1
+```
+## Pass Test
+### Test
+```
+@Test 
+   public void testArrayPass() {
+    int[] input1 = { 3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3 }, input1);
+    }
+```
+### Output
+```
+JUnit version 4.13.2
+.
+Time: 0.035
+
+OK (1 test)
 ```

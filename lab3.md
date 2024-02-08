@@ -1,4 +1,5 @@
-```JUnit version 4.13.2
+```
+JUnit version 4.13.2
 .E
 Time: 0.075
 There was 1 failure:
@@ -21,6 +22,5 @@ Caused by: java.lang.AssertionError: expected:<1> but was:<3>
         ... 36 more
 
 FAILURES!!!
-Tests run: 1,  Failures: 1```
-
-
+Tests run: 1,  Failures: 1
+```

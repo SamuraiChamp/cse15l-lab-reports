@@ -3,11 +3,11 @@
 ### Test
 ```
 @Test
-   public void testArrayFail(){
-    int[] input2 = { 1, 2, 3 };
-    ArrayExamples.reverseInPlace(input2);
-    assertArrayEquals(new int[]{ 3, 2, 1 }, input2);
-  }
+public void testArrayFail(){
+   int[] input2 = { 1, 2, 3 };
+   ArrayExamples.reverseInPlace(input2);
+   assertArrayEquals(new int[]{ 3, 2, 1 }, input2);
+}
 ```
 ### Output
 ```
@@ -40,11 +40,11 @@ Tests run: 1,  Failures: 1
 ### Test
 ```
 @Test 
-   public void testArrayPass() {
-    int[] input1 = { 3 };
-    ArrayExamples.reverseInPlace(input1);
-    assertArrayEquals(new int[]{ 3 }, input1);
-    }
+public void testArrayPass() {
+   int[] input1 = { 3 };
+   ArrayExamples.reverseInPlace(input1);
+   assertArrayEquals(new int[]{ 3 }, input1);
+}
 ```
 ### Output
 ```
@@ -68,12 +68,12 @@ static void reverseInPlace(int[] arr) {
 ### After
 ```
 static void reverseInPlace(int[] arr) {
-    int[] newArray = new int[arr.length];
-    for(int i =0; i<arr.length;i++){
+   int[] newArray = new int[arr.length];
+   for(int i =0; i<arr.length;i++){
       newArray[i]=arr[i];
-    }
-    for(int i = 0; i < arr.length; i += 1) {
+   }
+   for(int i = 0; i < arr.length; i += 1) {
       arr[i] = newArray[arr.length - i - 1];
-    }
-  }
+   }
+}
 ```

@@ -80,4 +80,4 @@ static void reverseInPlace(int[] arr) {
 ### Explanation
 This code was bugged because it would override some of the data in the list that still needed to be reversed. The way this is fixed is by making a new hard copy of the list and setting the original array's values based on this new hard copied list so none of the needed data is overwritten.
 # Part 2
-## 
+## `-size n` for `find`

@@ -125,19 +125,23 @@ $ find -name "*.txt" -mtime -5
 ./technical/biomed/1471-2105-3-6.txt
 
 ```
-
-## `` for `find`
-Resource linked [here]()
-### example
+This command finds text files that were modified in the last 5 days. It's useful if you are trying to see how many files have been changed recently.
+## `-cmin n` for `find`
+Resource linked [here](https://man7.org/linux/man-pages/man1/find.1.html)
+### `-cmin -10` example
 ```
-
+$ find -name "*.txt" -cmin -10
+./technical/911report/chapter-9.txt
+./technical/biomed/1468-6708-3-10.txt
+./technical/biomed/1471-2105-3-6.txt
 ```
-
-### example
+This command returns all the text files was edited in the last 10 minutes. This is useful if you're trying to track when people are using files and which files are being accessed.
+### `-cmin 242` example
 ```
-
+$ find -name "*.txt" -cmin 242
+./technical/911report/chapter-12.txt
 ```
-
+This command returns all the files accessed 242 minutes ago. This is useful for finding when a file was edited and when it was modified.
 ## `` for `find`
 Resource linked [here]()
 ### example

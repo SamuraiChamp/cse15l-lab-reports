@@ -81,7 +81,7 @@ static void reverseInPlace(int[] arr) {
 This code was bugged because it would override some of the data in the list that still needed to be reversed. The way this is fixed is by making a new hard copy of the list and setting the original array's values based on this new hard copied list so none of the needed data is overwritten.
 # Part 2
 ## `-size n` for `find`
-Resource linked [here](https://kb.iu.edu/d/admm#:~:text=The%20find%20command%20will%20begin,one%20starting%20directory%20for%20searching.)
+Resource linked [here](https://kb.iu.edu/d/admm#)
 ### `-size 3` example
 ```
 $ find -name "*.txt" -size 3
@@ -103,7 +103,7 @@ $ find -name "*.txt" -size -4
 ```
 This command finds text files whose size is 4 blocks or less where a block is 512 bytes. It's useful if you are trying to sort files by length and want to find ones less than a certain size.
 ## `-mtime n` for `find`
-Resource linked [here](https://kb.iu.edu/d/admm#:~:text=The%20find%20command%20will%20begin,one%20starting%20directory%20for%20searching.)
+Resource linked [here](https://kb.iu.edu/d/admm#)
 ### `-mtime 0` example
 ```
 $ find -name "*.txt" -mtime 0

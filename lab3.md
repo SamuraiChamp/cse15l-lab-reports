@@ -135,21 +135,33 @@ $ find -name "*.txt" -cmin -10
 ./technical/biomed/1468-6708-3-10.txt
 ./technical/biomed/1471-2105-3-6.txt
 ```
-This command returns all the text files was edited in the last 10 minutes. This is useful if you're trying to track when people are using files and which files are being accessed.
+This command returns all the text files was edited in the last 10 minutes. This is useful if you're trying to track when people are editing files.
 ### `-cmin 242` example
 ```
 $ find -name "*.txt" -cmin 242
 ./technical/911report/chapter-12.txt
 ```
 This command returns all the files accessed 242 minutes ago. This is useful for finding when a file was edited and when it was modified.
-## `` for `find`
-Resource linked [here]()
-### example
+## `-used n` for `find`
+Resource linked [here](https://man7.org/linux/man-pages/man1/find.1.html)
+### `-used 1` example
 ```
-
+$ find -name "*.txt" -used 1
+./technical/911report/chapter-12.txt
+./technical/911report/chapter-13.5.txt
+./technical/911report/chapter-9.txt
+./technical/biomed/1468-6708-3-10.txt
+./technical/biomed/1471-2105-3-6.txt
 ```
-
-### example
+This command returns text files that were accessed 1 day ago. This is used to see which files have been accessed a specified amount of time ago.
+### `-used -5` example
 ```
-
+$ find -name "*.txt" -used -5
+./technical/911report/chapter-12.txt
+./technical/911report/chapter-13.5.txt
+./technical/911report/chapter-5.txt
+./technical/911report/chapter-9.txt
+./technical/biomed/1468-6708-3-10.txt
+./technical/biomed/1471-2105-3-6.txt
 ```
+This command returns text files that were accessed within the last 5 days. This is used to see which files have been used and read through recently.

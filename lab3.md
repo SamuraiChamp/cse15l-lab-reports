@@ -81,4 +81,71 @@ static void reverseInPlace(int[] arr) {
 This code was bugged because it would override some of the data in the list that still needed to be reversed. The way this is fixed is by making a new hard copy of the list and setting the original array's values based on this new hard copied list so none of the needed data is overwritten.
 # Part 2
 ## `-size n` for `find`
-f
+Resource linked [here](https://kb.iu.edu/d/admm#:~:text=The%20find%20command%20will%20begin,one%20starting%20directory%20for%20searching.)
+### `-size 3` example
+```
+$ find -name "*.txt" -size 3
+./technical/plos/pmed.0020048.txt
+./technical/plos/pmed.0020120.txt
+./technical/plos/pmed.0020157.txt
+./technical/plos/pmed.0020192.txt
+```
+This command finds text files whose size is 3 blocks big where a block is 512 bytes. It's useful if you are trying to sort files by specific lengths and need to find ones matching a certain length.
+### `size -7` example
+```
+$ find -name "*.txt" -size -4
+./technical/plos/pmed.0020048.txt
+./technical/plos/pmed.0020120.txt
+./technical/plos/pmed.0020157.txt
+./technical/plos/pmed.0020191.txt
+./technical/plos/pmed.0020192.txt
+./technical/plos/pmed.0020226.txt
+```
+This command finds text files whose size is 4 blocks or less where a block is 512 bytes. It's useful if you are trying to sort files by length and want to find ones less than a certain size.
+## `-mtime n` for `find`
+Resource linked [here](https://kb.iu.edu/d/admm#:~:text=The%20find%20command%20will%20begin,one%20starting%20directory%20for%20searching.)
+### `-mtime 0` example
+```
+$ find -name "*.txt" -mtime 0
+./technical/911report/chapter-12.txt
+./technical/911report/chapter-13.5.txt
+./technical/911report/chapter-9.txt
+./technical/biomed/1468-6708-3-10.txt
+./technical/biomed/1471-2105-3-6.txt
+```
+This command finds text files that were modified today aka 0 days ago. It's useful if you are trying to check the last time some of your files were edited.
+### `-mtime -5` example
+```
+$ find -name "*.txt" -mtime -5
+./technical/911report/chapter-12.txt
+./technical/911report/chapter-13.5.txt
+./technical/911report/chapter-5.txt
+./technical/911report/chapter-9.txt
+./technical/biomed/1468-6708-3-10.txt
+./technical/biomed/1471-2105-3-6.txt
+
+```
+
+## `` for `find`
+Resource linked [here]()
+### example
+```
+
+```
+
+### example
+```
+
+```
+
+## `` for `find`
+Resource linked [here]()
+### example
+```
+
+```
+
+### example
+```
+
+```

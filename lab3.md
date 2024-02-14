@@ -1,3 +1,4 @@
+viewable at https://samuraichamp.github.io/cse15l-lab-reports/lab3#
 # Part 1
 ## Fail Test
 ### Test

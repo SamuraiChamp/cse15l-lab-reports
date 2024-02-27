@@ -1,3 +1,4 @@
+viewable at https://samuraichamp.github.io/cse15l-lab-reports/lab4
 # Step 4
 ![Image](step 4, up 1 then enter.png)<br>
 Keys pressed:`<up><enter>`<br> The `ssh rgabel@ieng6.ucsd.edu` command was 1 up in my history so I used the up arrow to get it. This command connected me to the remote system to run my commands on.

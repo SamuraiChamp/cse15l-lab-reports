@@ -5,7 +5,8 @@ Hello, I'm having an issue with my `deleteIndex` method as shown below<br>
 ![Image](code.png)<br>
 I implemented this method using helper methods premade for us as well as using the ArrayList data made earlier. When I use the tests given to us, I get a pass as shown below<br>
 ![Image](test.png)<br>
-![Image](bash.png)
+![Image](bash.png)<br>
+However, I 
 ![Image](result.png)
 
 # Part 2: Reflection

@@ -11,4 +11,8 @@ However, after I submit to Gradescope, I got the following output from the final
 I'm guessing there is something wrong with my `deleteIndex` method relating to its use of the `percolateUp` helper method. Please help!
 ## TA
 Is there ever a time when deleting an index from your heap might result in the need for an index to be percolated up? If so, your method needs to take advantage of the `percolateUp` helper method somehow.
+## Student
+Thank you that worked!<br>
+![Image](newCode.png)<br>
+![Image](newResult.png)<br>
 # Part 2: Reflection

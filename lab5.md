@@ -12,7 +12,8 @@ I'm guessing there is something wrong with my `deleteIndex` method relating to i
 ## TA
 Is there ever a time when deleting an index from your heap might result in the need for an index to be percolated up? If so, your method needs to take advantage of the `percolateUp` helper method somehow.
 ## Student
-Thank you that worked!<br>
+Thank you that worked! Looks like I didn't account for that scenario and didn't have any code to help with that! <br>
 ![Image](newCode.png)<br>
 ![Image](newResult.png)<br>
 # Part 2: Reflection
+I thought learning different vim shortcuts was really fun! Vim itself seems like kind of a pain to use but the activity where we had to use as few keypresses as possible was super cool and it made researching different vim commands and finding the best way to do something really fun.
